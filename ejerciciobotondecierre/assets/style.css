@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+#lorem1,#lorem2,#lorem3{
+    border: solid lightskyblue 5px;
+    background-color: lightblue;
+    width: 30%;
+}
+#removeClick1, #removeClick2, #removeClick3{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content:flex-end;
+}
